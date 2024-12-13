@@ -1,6 +1,8 @@
+# Bevy_Eventwork
+
 > `bevy_eventwork` is a solution to the "How do I connect multiple bevy instances" problem in your [bevy](https://bevyengine.org/) games, forked from the excellent [`bevy_spicy_networking`](https://crates.io/crates/bevy_spicy_networking), with significant changes for modularity and including the removal of big dependencies like tokio and typetag.
 
-### Contents
+## Contents
 
 - [Documentation](#documentation)
   - [Quickstart](#quickstart)
@@ -95,6 +97,7 @@ Simply pick the version compatible to your bevy version:
 
 | Bevy Eventwork | Bevy |
 | :------------: | :--: |
+|      0.10       | 0.15 |
 |      0.9       | 0.14 |
 |      0.8       | 0.13 |
 |      0.7       | 0.8  |
@@ -131,8 +134,8 @@ The above three platforms are officially supported. **MacOS** should work but I 
 
 |                                                 Name                                                  | Version |
 | :---------------------------------------------------------------------------------------------------: | :-----: |
-|                                       eventwork_tcp (included)                                        |   0.9   |
-| bevy_eventwork_mod_websockets ([LINK](https://github.com/NoahShomette/bevy_eventwork_mod_websockets)) |   0.2   |
+|                                       eventwork_tcp (included)                                        |   0.10   |
+| bevy_eventwork_mod_websockets ([LINK](https://github.com/NoahShomette/bevy_eventwork_mod_websockets)) |   0.3   |
 
 ## Contributing
 
